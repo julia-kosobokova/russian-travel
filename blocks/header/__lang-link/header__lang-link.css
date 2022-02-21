@@ -1,3 +1,5 @@
 .header__lang-link {
-    display: inline;
+    display: inline-block;
+    margin: 0;
+    padding-left: 18px;
 }

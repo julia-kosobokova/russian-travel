@@ -4,4 +4,7 @@
     font-weight: 400;
     text-align: left;
     list-style-type: none;
+    margin: 0;
+    padding-top: 34px;
+    padding-inline-start: 0;
 }
