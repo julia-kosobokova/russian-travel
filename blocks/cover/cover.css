@@ -1,3 +1,8 @@
 .cover {
+    position: relative;
     padding-top: 66px;
+}
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+    transition: opacity 0.5s linear 0.2s;
 }
