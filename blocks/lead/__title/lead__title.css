@@ -6,3 +6,12 @@
     margin: 0px;
     padding: 48px 16px 0px 16px;
 }
+
+@media (min-width: 768px) {
+    .lead__title {
+        line-height: 1.04;
+        font-size: 96px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
