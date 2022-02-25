@@ -1,0 +1,6 @@
+.photo-grid {
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+}
