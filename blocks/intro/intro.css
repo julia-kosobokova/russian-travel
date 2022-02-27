@@ -17,3 +17,9 @@
         max-width: 690px;
     }
 }
+
+@media (min-width: 1080px) {
+    .intro {
+        padding-left: calc((100% - 984px)/2);
+    }
+}
