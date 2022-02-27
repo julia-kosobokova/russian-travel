@@ -4,12 +4,13 @@
 
 @media (min-width: 1024px) {
     .lead__image {
-        width: 928px;
-        padding-left: calc((100% - 928px)/2);
+        width: calc(100% - 96px);
+        padding-left: 48px;
+        padding-right: 48px;
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1080px) {
     .lead__image {
         width: 984px;
         padding-left: calc((100% - 984px)/2);

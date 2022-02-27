@@ -7,3 +7,15 @@
     margin: 0;
     padding: 8px 16px 0 16px;
 }
+
+@media (min-width: 1024px) {
+    .lead__caption {
+        padding-left: 48px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .lead__caption {
+        padding-left: calc((100% - 984px)/2);
+    }
+}
