@@ -2,4 +2,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     height: 62.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
