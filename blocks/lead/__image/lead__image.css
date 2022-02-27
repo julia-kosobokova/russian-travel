@@ -1,3 +1,17 @@
 .lead__image {
     width: 100%;
 }
+
+@media (min-width: 1024px) {
+    .lead__image {
+        width: 928px;
+        padding-left: calc((100% - 928px)/2);
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead__image {
+        width: 984px;
+        padding-left: calc((100% - 984px)/2);
+    }
+}

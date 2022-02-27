@@ -4,3 +4,27 @@
     grid-template-columns: 1fr;
     row-gap: 12px;
 }
+
+@media (min-width: 768px) {
+    .photo-grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 16px;
+        column-gap: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .photo-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 14px;
+        column-gap: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .photo-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 16px;
+        column-gap: 16px;
+    }
+}

@@ -1,9 +1,9 @@
 .page {
-    min-width: 320px;  
-    padding: 0;
-    margin: 0 auto;
-    font-family: 'Inter';
-    background-color: #2A2C2F;
-    color: #FFFFFF;
-    text-rendering: optimizeLegibility;
-  }
+  min-width: 320px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  text-rendering: optimizeLegibility;
+}
