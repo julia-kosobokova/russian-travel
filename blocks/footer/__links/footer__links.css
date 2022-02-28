@@ -7,3 +7,15 @@
     padding-inline-start: 0;
     padding: 64px 0 48px;
 }
+
+@media (min-width: 768px) {
+    .footer__links {
+        padding-top: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__links {
+        padding-top: 92px;
+    }
+}
