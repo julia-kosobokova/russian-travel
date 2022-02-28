@@ -1,4 +1,20 @@
 .footer {
     margin: 0;
     padding: 0 16px 24px;
+    max-width: 1184px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
 }
