@@ -1,13 +1,16 @@
 .place {
-    display: grid;
-    grid-template-columns: 1fr;
+
 }
 
 @media (min-width: 768px) {
     .place {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        column-gap: 32px;
+        display: grid;
+        grid-template-columns: 340px auto;
+        grid-template-rows: minmax(min-content, max-content) 1fr;
+        grid-template-areas:
+        "title website"
+        "image text";
+        column-gap: 28px;
         padding-left: 24px;
         padding-right: 24px;
     }

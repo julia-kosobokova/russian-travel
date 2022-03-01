@@ -5,4 +5,11 @@
     text-align: left;
     margin: 0;
     padding: 50px 16px 32px;
+    grid-area: title;
+}
+
+@media (min-width: 768px) {
+    .place__title {
+        padding: 73px 0 48px;  
+    }
 }
