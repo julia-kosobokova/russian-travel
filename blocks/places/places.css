@@ -4,13 +4,20 @@
 }
 
 @media (min-width: 768px) {
-    .lead__image {
-        padding-top: 38px;
+    .places {
+        padding: 15px 24px 0;
     }
 }
 
 @media (min-width: 1024px) {
-    .lead__image {
-        padding-top: 42px;
+    .places {
+        padding: 19px 48px 0;
+    }
+}
+
+@media (min-width: 1080px) {
+    .places {
+        padding-left: calc((100% - 984px)/2);
+        padding-right: calc((100% - 984px)/2);
     }
 }

@@ -10,6 +10,15 @@
 
 @media (min-width: 768px) {
     .place__title {
+        line-height: 1.1;
+        font-size: 42px;
         padding: 73px 0 48px;  
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__title {
+        line-height: 1.06;
+        font-size: 72px;
     }
 }
