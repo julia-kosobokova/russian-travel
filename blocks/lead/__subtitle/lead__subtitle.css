@@ -16,9 +16,3 @@
         width: 640px;
     }
 }
-
-@media (min-width: 1280px) {
-    .lead__subtitle {
-        padding-botom: 64px;
-    }
-}

@@ -1,7 +1,8 @@
 .footer__link {
     padding-top: 32px;
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .footer__link:first {
     padding-top: 0;
 }
