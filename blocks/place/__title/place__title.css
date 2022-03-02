@@ -4,7 +4,7 @@
     font-weight: 900;
     text-align: left;
     margin: 0;
-    padding: 50px 16px 32px;
+    padding: 0 16px 32px;
     grid-area: title;
 }
 
@@ -12,7 +12,7 @@
     .place__title {
         line-height: 1.1;
         font-size: 42px;
-        padding: 73px 0 48px;  
+        padding: 0 0 48px;  
     }
 }
 

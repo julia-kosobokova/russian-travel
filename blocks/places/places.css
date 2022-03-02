@@ -1,17 +1,17 @@
 .places {
-    padding-top: 14px;
-
+    padding-top: 64px;
+    padding-bottom: 16px;
 }
 
 @media (min-width: 768px) {
     .places {
-        padding: 15px 24px 0;
+        padding: 88px 24px 18px;
     }
 }
 
 @media (min-width: 1024px) {
     .places {
-        padding: 19px 48px 0;
+        padding: 92px 48px 12px;
     }
 }
 

@@ -1,3 +1,7 @@
+.place {
+    padding-bottom: 50px;
+}
+
 @media (min-width: 768px) {
     .place {
         display: grid;

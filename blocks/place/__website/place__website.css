@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
     .place__website {
-        padding-top: 73px;
+        padding-bottom: 48px;
         grid-area: website;
+        align-self: end;
     }
 }

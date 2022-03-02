@@ -1,23 +1,10 @@
 .cover {
-    padding-top: 66px;
     max-width: 1184px;
 }
 
 .cover:hover .cover__overlay {
     opacity: 0.8;
     transition: opacity 0.5s linear 0.2s;
-}
-
-@media (min-width: 768px) {
-    .cover {
-        padding-top: 90px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .cover {
-        padding-top: 92px;
-    }
 }
 
 @media (min-width: 1080px) {
