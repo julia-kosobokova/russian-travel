@@ -9,6 +9,7 @@
 
 @media (min-width: 768px) {
     .footer__link {
+        padding-top: 0;
         padding-right: 18px;
     }
 }

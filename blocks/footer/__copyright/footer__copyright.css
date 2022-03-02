@@ -9,6 +9,12 @@
 @media (min-width: 768px) {
     .footer__copyright {
         line-height: 1.14;
-        padding: 120px 0 24px;
+        padding-top: 90px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__copyright {
+        padding-top: 94px;
     }
 }
