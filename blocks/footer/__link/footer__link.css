@@ -3,10 +3,6 @@
     text-decoration: none;
 }
 
-.footer__link:first {
-    padding-top: 0;
-}
-
 @media (min-width: 768px) {
     .footer__link {
         padding-top: 0;
